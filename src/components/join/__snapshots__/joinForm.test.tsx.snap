@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`JoinForm이 잘 렌더링 됐는지 확인한다. 1`] = `
+<div>
+  <div
+    class="css-18irzgr"
+  >
+    <h3
+      class="css-1wp369k"
+    >
+      회원가입
+    </h3>
+    <form>
+      <input
+        class="css-jx9hwa"
+        id="id"
+        placeholder="이메일을 입력해주세요."
+        type="text"
+      />
+      <input
+        class="css-jx9hwa"
+        id="password"
+        placeholder="비밀번호를 입력해주세요."
+        type="password"
+      />
+      <input
+        class="css-jx9hwa"
+        id="passwordCheck"
+        placeholder="비밀번호를 다시 입력해주세요."
+        type="password"
+      />
+      <input
+        class="css-mcgovs"
+        id="submit"
+        type="submit"
+        value="가입하기"
+      />
+    </form>
+  </div>
+</div>
+`;
