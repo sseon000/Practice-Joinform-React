@@ -16,18 +16,21 @@ exports[`JoinForm이 잘 렌더링 됐는지 확인한다. 1`] = `
         id="id"
         placeholder="이메일을 입력해주세요."
         type="text"
+        value=""
       />
       <input
         class="css-jx9hwa"
         id="password"
         placeholder="비밀번호를 입력해주세요."
         type="password"
+        value=""
       />
       <input
         class="css-jx9hwa"
         id="passwordCheck"
         placeholder="비밀번호를 다시 입력해주세요."
         type="password"
+        value=""
       />
       <input
         class="css-mcgovs"

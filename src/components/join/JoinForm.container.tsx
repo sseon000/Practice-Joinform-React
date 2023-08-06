@@ -38,7 +38,7 @@ export default function JoinForm() {
             setIdEmTypeErr('');
         }
         // 4. 특수문자2개
-        const regExpSpecial = /[~!@#$%^*()_+|?:{}]{2}/
+        const regExpSpecial = /[~!@#$%^*()_+|?:{}]{2,}/
         if(!regExpSpecial.test(password)) {
             setNonSpecErr('비밀번호에 특수문자 2개 이상 사용해주세요.');
             setInputs({
@@ -92,6 +92,7 @@ export default function JoinForm() {
             idEmTypeErr={idEmTypeErr}
             nonSpecErr={nonSpecErr}
             passwordCheckErr={passwordCheckErr}
+            inputs={inputs}
         />
     )
 }
